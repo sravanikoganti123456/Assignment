@@ -1,13 +1,13 @@
-package com.example.AggregatingService;
+// package com.example.AggregatingService;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class AggregatingServiceApplicationTests {
+// @SpringBootTest
+// class AggregatingServiceApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
