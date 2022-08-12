@@ -17,7 +17,7 @@ public class AggregateController {
 	
 	// retrieve all population data from 3 countries
 	@GetMapping("getPopulation")
-	public Population getAllStudent()
+	public Population getAllPopulation()
 	{
 		RestTemplate restTemplate=new RestTemplate();
 		ResponseEntity<Population> result1 = restTemplate.getForEntity("http://localhost:8082/country/getCanadaPopulation", Population.class);
@@ -41,7 +41,7 @@ public class AggregateController {
 	
 		// retrieve all population data from 3 countries
 		@GetMapping("getPopulationFromCountryService")
-		public Population getAllStudent123()
+		public Population getAllPopulations()
 		{
 			RestTemplate restTemplate=new RestTemplate();
 			ResponseEntity<Population> result1 = restTemplate.getForEntity("http://localhost:8080/country/getCanadaPopulation", Population.class);
