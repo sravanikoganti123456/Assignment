@@ -1,13 +1,13 @@
-package com.example.CountryServices;
+// package com.example.CountryServices;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class CountryServicesApplicationTests {
+// @SpringBootTest
+// class CountryServicesApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }
