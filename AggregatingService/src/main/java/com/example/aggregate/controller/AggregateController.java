@@ -10,6 +10,7 @@ import com.example.aggregate.model.Population;
 
 @RestController
 @RequestMapping("aggregate")
+@ComponentScan(basePackages = "com.example.country.controller")
 public class AggregateController {
 
 	
